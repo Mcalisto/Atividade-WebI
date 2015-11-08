@@ -1,0 +1,20 @@
+
+ol{
+  font-size: 18pt;
+  font-style: arial bold;
+  text-align: left;
+}
+#footer {
+    position: fixed;
+
+    color:black;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding:5px;
+    bottom: 0px;
+
+}
+ol{
+  font-size: 15pt;
+}

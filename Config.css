@@ -1,20 +1,107 @@
 
-ol{
-  font-size: 18pt;
+form.outros{
+
+  font-size: 13pt;
   font-style: arial bold;
   text-align: left;
+  color: black;
+  background-color: lightgray;
+  border: 2px solid darkred;
+  padding: 5px;
+
+}
+form.index{
+
+  font-size: 13pt;
+  font-style: arial bold;
+  text-align: center;
+  color: black;
+  background-color: lightgray;
+  padding: 5px;
+  border: 1px solid darkred;
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    font-size: 13pt;
+}
+
+a{
+  font-size: 20pt;
+  color: darkred;
+}
+
+img{
+
+    width:100%;
+}
+table.tabela2, th, tr{
+  border: 1px solid black;
+
+}
+table.tabela3, th, tr{
+  border: 2px solid darkgray;
+
+}
+tr.linha1{
+  background-color: darkgray;
+  color: black;
+}
+tr.linha0{
+  background-color: lightgray;
+  color: black;
+}
+
+
+tr.topo{
+    background-color: yellow;
+    color: white;
+    
+}
+tr.linhaazul{
+  background-color: blue;
+  color: white;
+}
+
+#botaovoltar{
+  font-size: 20pt;
+
 }
 #footer {
-    position: fixed;
-
-    color:black;
+    position: static;
+    color: white;
     font-style: oblique;
     font-weight: bold;
     text-align: center;
-    padding:5px;
-    bottom: 0px;
+    background: black;
+    padding-bottom: 5px;
+}
+#cadastro{
+  font-size: 15pt;
+  color: black;
 
 }
-ol{
-  font-size: 15pt;
+
+#tabela{
+  background-color: lightblue;
+  border: 1px solid lightblue;
+
+}
+
+#tabela input[type="text"], #tabela textarea{
+
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+
+    background-repeat: repeat-x;
+    background-position: top;
 }

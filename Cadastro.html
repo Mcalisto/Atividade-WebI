@@ -4,43 +4,82 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="Config.css">
   <div id="header">
-  <img src="ufoptopo.jpg" alt="Logo Ufop" style="width:1585px;height:100px;">
+  <img src="ufoptopo.jpg" alt="Logo Ufop" style="width:100%">
   </div>
 </head>
-<body>
-
-  <ol>
-    <li><label for="Matrícula">Matrícula:</label></li>
-    <input id="matricula" type="text"></input>
-
-    <li><label for="Nome">Nome:</label></li>
-    <input id="nome" type="text"></input>
-
-    <li><label for="Rua">Rua:</label></li>
-    <input id="rua" type="text"></input>
-
-    <li>Numero</li>
-    <li>Complemento</li>
-    <li>Cidade/Estado</li>
-    <li>Sexo</li>
-    <li>RG</li>
-    <li>CPF</li>
-    <li>Tipo Sanguineo</li>
-    <li>Fator RH</li>
-    <li>Telefone Fixo</li>
-    <li>Celular</li>
-    <li>E-mail</li>
-    <li>Senha</li>
-    <li>Confirmação</li>
-    <li>Acesso</li>
-    <li>Enviar</li>
-    <li>Limpar</li>
+<body >
+<form  id="cadastro" name="Cadastro" class="outros">
 
 
-  </ol>
+    <p><label for="Matrícula">Matrícula:</label>
+    <input id="matricula" name="Matrícula"type="text"></input></p>
+
+    <p><label for="Nome">Nome:</label>
+    <input id="nome" name="Nome"type="text"></input>
+
+    <label for="Rua">Rua:</label>
+    <input id="endereco" name="Rua" type="text"></input>
+
+    <label for="Rua">Numero:</label>
+    <input id="numero" name="Numero" type="text"></input>
+
+    <label for="Rua">Complemento:</label>
+    <input id="complemento" name="Complemento" type="text"></input>
+
+    <label for="Rua">Cidade/Estado:</label>
+    <select class="combo" name="Cidade/Estado">
+      <option value="João Monlevade/MG">João Monlevade/MG</option>
+      <option value="Belo Horizonte/MG">Belo Horizonte/MG</option>
+      <option value="Ouro Preto/MG">Ouro Preto/MG</option>
+      <option value="Mariana/MG">Mariana/MG</option>
 
 
-<a href="index.html" > Voltar</a>
+    </select></p>
+
+    <p><label for="Sexo">Sexo:</label><br><br>
+    <input id="sexo" name="Sexo" type="radio" value="Masculino" checked="">Male</input>
+    <input id="sexo" name="Sexo" type="radio" value="Feminino" checked="">Female</input></p>
+
+    <p><label for="RG">RG:</label>
+    <input id="rg" name="RG" type="text"></input>
+
+    <label for="CPF">CPF:</label>
+    <input id="cpf" name="CPF" type="text"></input></p>
+
+    <p><label for="TipoSanguineo">Tipo Sanguineo:</label>
+    <input id="tiposanguineo" name="TipoSanguineo" type="text"></input>
+
+    <label for="FatorRH">Fator RH:</label>
+    <input id="fatorRH" name="FatorRH" type="text"></input></p>
+
+    <p><label for="TelefoneFixo">Telefone Fixo:</label>
+    <input id="telfixo" name="TelefoneFixo" type="text"></input>
+
+    <label for="Celular">Celular:</label>
+    <input id="celular" name="Celular" type="text"></input></p>
+
+    <p><label for="email" >E-mail:</label>
+    <input id="email" name="E-mail" type="text"></input></p>
+
+    <p><label for="Senha">Senha:</label>
+    <input id="senha" name="Senha" type="password"></input>
+
+    <label for="Confirmação">Confirmação:</label>
+    <input id="confirmacao" name="Confirmação" type="password"></input></p>
+
+    <p><label for="Acesso">Acesso:</label>
+    <input id="acesso" name="Acesso1" type="checkbox" value="Biblioteca">Biblioteca</input>
+    <input id="acesso" name="Acesso2" type="checkbox" value="Restaurante">Restaurante</input>
+    <input id="acesso" name="Acesso3" type="checkbox" value="Clube">Clube</input>
+    <input id="acesso" name="Acesso4" type="checkbox" value="Campo">Campo</input></p>
+
+    <p><a href="sucessoCadastro.html" class="button">Enviar</a>
+
+    <label for="Limpar"></label>
+    <input id="limpar" name="Limpar" type="submit" value="Limpar"></input></p>
+
+</form>
+<a id="botaovoltar" href="index.html" > Voltar</a>
 
 </body>
 <div id="footer">

@@ -47,10 +47,16 @@
     <input id="cpf" name="CPF" type="text"></input></p>
 
     <p><label for="TipoSanguineo">Tipo Sanguineo:</label>
-    <input id="tiposanguineo" name="TipoSanguineo" type="text"></input>
+      <select class="combo" name="Cidade/Estado">
+        <option value="O">O</option>
+        <option value="A">A</option>
+        <option value="AB">AB</option>
+        <option value="B">B</option>
+      </select></p>
 
     <label for="FatorRH">Fator RH:</label>
-    <input id="fatorRH" name="FatorRH" type="text"></input></p>
+    <input id="FatorRH" name="fatorRH" type="radio" value="Positivo" checked="">Positivo</input>
+    <input id="FatorRH" name="fatorRH" type="radio" value="Negativo" checked="">Negativo</input></p>
 
     <p><label for="TelefoneFixo">Telefone Fixo:</label>
     <input id="telfixo" name="TelefoneFixo" type="text"></input>
@@ -76,9 +82,11 @@
     <p><a href="sucessoCadastro.html" class="button">Enviar</a>
 
     <label for="Limpar"></label>
-    <input id="limpar" name="Limpar" type="submit" value="Limpar"></input></p>
+    <input id="limpar" name="Limpar" type="submit" value="reset"></input></p>
 
 </form>
+<br>
+<br>
 <a id="botaovoltar" href="index.html" > Voltar</a>
 
 </body>

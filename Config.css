@@ -14,7 +14,7 @@ form.index{
 
   font-size: 13pt;
   font-style: arial bold;
-  text-align: center;
+  text-align: left;
   color: black;
   background-color: lightgray;
   padding: 5px;
@@ -45,6 +45,7 @@ table.tabela2, th, tr{
 }
 table.tabela3, th, tr{
   border: 2px solid darkgray;
+  width: 100%;
 
 }
 tr.linha1{
@@ -60,7 +61,7 @@ tr.linha0{
 tr.topo{
     background-color: yellow;
     color: white;
-    
+
 }
 tr.linhaazul{
   background-color: blue;
